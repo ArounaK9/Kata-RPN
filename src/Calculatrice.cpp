@@ -1,4 +1,4 @@
-#include "CalculatriceRPN.h"
+#include "calculatrice.h"
 #include <iostream>
 #include <sstream>
 #include <stack>
