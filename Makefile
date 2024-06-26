@@ -2,7 +2,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
 INCLUDES = -Iinclude
-SRC = src/CalculatriceRPN.cpp
+SRC = src/Calculatrice.cpp
 OBJ = $(SRC:.cpp=.o)
 MAIN = main/main.cpp
 TARGET = calculatrice_rpn
