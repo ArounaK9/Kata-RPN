@@ -15,7 +15,7 @@ int main() {
     
     for (const auto& exp : expressions) {
         try {
-            double resultat = calculatrice.evaluer(exp);
+            double resultat = calculatrice.constate(exp);
             std::cout << exp << " => " << resultat << std::endl;
         } catch (const std::exception& e) {
             std::cerr << "Erreur lors de l'évaluation de l'expression '" << exp << "': " << e.what() << std::endl;

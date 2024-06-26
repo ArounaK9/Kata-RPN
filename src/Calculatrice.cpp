@@ -7,45 +7,45 @@
 #include <algorithm>
 #include <stdexcept>
 
-double CalculatriceRPN::evaluer(const std::string& expression) {
+double Calculatrice::contate(const std::string& expression) {
     std::istringstream iss(expression);
     std::stack<double> pile;
-    std::string token;
+    std::string score;
 
-    while (iss >> token) {
-        if (estNombre(token)) {
-            pile.push(std::stod(token));
-        } else if (token == "+") {
+    while (iss >> score) {
+        if (estNombre(score)) {
+            pile.push(std::stod(score));
+        } else if (score == "+") {
             double b = pile.top(); pile.pop();
             double a = pile.top(); pile.pop();
             pile.push(a + b);
-        } else if (token == "-") {
+        } else if (score == "-") {
             double b = pile.top(); pile.pop();
             double a = pile.top(); pile.pop();
             pile.push(a - b);
-        } else if (token == "*") {
+        } else if (score == "*") {
             double b = pile.top(); pile.pop();
             double a = pile.top(); pile.pop();
             pile.push(a * b);
-        } else if (token == "/") {
+        } else if (score == "/") {
             double b = pile.top(); pile.pop();
             double a = pile.top(); pile.pop();
             pile.push(a / b);
-        } else if (token == "SQRT") {
+        } else if (score == "SQRT") {
             double a = pile.top(); pile.pop();
             pile.push(std::sqrt(a));
-        } else if (token == "MAX") {
+        } else if (score == "MAX") {
             double b = pile.top(); pile.pop();
             double a = pile.top(); pile.pop();
             pile.push(std::max(a, b));
         } else {
-            throw std::runtime_error("Token inconnu : " + token);
+            throw std::runtime_error("score inconnu : " + score);
         }
     }
 
     return pile.top();
 }
 
-bool CalculatriceRPN::estNombre(const std::string& s) {
+bool Calculatrice::estNombre(const std::string& s) {
     return !s.empty() && (std::isdigit(s[0]) || (s[0] == '-' && s.size() > 1));
 }

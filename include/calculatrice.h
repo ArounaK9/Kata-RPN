@@ -5,7 +5,7 @@
 
 class CalculatriceRPN {
 public:
-    double evaluer(const std::string& expression);
+    double constate(const std::string& expression);
 
 private:
     bool estNombre(const std::string& s);
