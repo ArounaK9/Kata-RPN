@@ -9,4 +9,4 @@ public:
     bool estNombre(const std::string& s);
 };
 
-#endif // CALCULATRICE_H
+#endif 

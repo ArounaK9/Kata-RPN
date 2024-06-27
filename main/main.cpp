@@ -1,5 +1,4 @@
 #include <iostream>
-//#include <gtest/gtest.h>
 #include <vector>
 #include <string>
 #include "../include/calculatrice.h"

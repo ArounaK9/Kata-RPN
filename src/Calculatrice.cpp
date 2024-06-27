@@ -46,10 +46,10 @@ double Calculatrice::contate(const std::string& expression) {
                         }
                         pile.push(a / b);
                         break;
-                    case 'S': // Suppose that 'S' stands for "SQRT"
+                    case 'S':
                         pile.push(std::sqrt(b));
                         break;
-                    case 'M': // Suppose that 'M' stands for "MAX"
+                    case 'M':
                         pile.push(std::max(a, b));
                         break;
                     default:
