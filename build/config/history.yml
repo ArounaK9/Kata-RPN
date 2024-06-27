@@ -1,0 +1,26 @@
+build: Debug
+c:\Users\aroun\Desktop\Kata\Kata-RPN\.git\objects\62\555a8bf21898c5ac611679608dd5967c03c78c:
+  time: 2024-06-27T12:24:22.024Z
+  files: []
+c:\Users\aroun\Desktop\Kata\Kata-RPN\.git\objects\80\feb5dfa48671f1f47b9bebfe2733ea0408f72c:
+  time: 2024-06-27T12:24:22.037Z
+  files: []
+c:\Users\aroun\Desktop\Kata\Kata-RPN\.git\objects\e7\1482eb4bbcdf35696460cf21a3b9eaf21ca7ec:
+  time: 2024-06-27T12:24:22.059Z
+  files: []
+c:\Users\aroun\Desktop\Kata\Kata-RPN\.git\objects\bd\92ad763f9d0692956853771da2946c9daadfec:
+  time: 2024-06-27T12:24:22.072Z
+  files: []
+c:\Users\aroun\Desktop\Kata\Kata-RPN\.git\objects\f1\f803de5cfec6efdad5f95202533c112482c40c:
+  time: 2024-06-27T12:24:22.096Z
+  files: []
+c:\Users\aroun\Desktop\Kata\Kata-RPN\main\main.cpp:
+  time: 2024-06-27T12:48:42.064Z
+  files:
+    - file: c:\Users\aroun\Desktop\Kata\Kata-RPN\include\calculatrice.h
+      time: 2024-06-27T12:19:50.651Z
+c:\Users\aroun\Desktop\Kata\Kata-RPN\src\Calculatrice.cpp:
+  time: 2024-06-27T12:24:22.123Z
+  files:
+    - file: c:\Users\aroun\Desktop\Kata\Kata-RPN\include\calculatrice.h
+      time: 2024-06-27T12:19:50.651Z
